@@ -1,5 +1,4 @@
-gap> n:=9;                            
-9
+gap> n := 9;;                           
 gap> S := SymmetricGroup(n);;
 gap> A := AlternatingGroup(n);;
 gap> D := DihedralGroup(2*n);;
@@ -9,4 +8,3 @@ gap> AvgOrdOFGroup(A);
 1516831/181440
 gap> AvgOrdOFGroup(D);
 79/18
-
